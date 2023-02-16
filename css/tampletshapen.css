@@ -1,0 +1,349 @@
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans|Cinzel|Courgette|Farro|Roboto|Ubuntu+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+*{margin:0; padding:0}
+body{
+	font-family:'poppins';
+}
+/*  'Roboto', sans-serif;
+ 'Ubuntu Condensed', sans-serif;
+'Cinzel', serif;
+ 'Farro', sans-serif;
+'Courgette', cursive;
+'Alegreya Sans', sans-serif;
+ 'Alegreya', serif;
+ 'Poppins', sans-serif;
+ */
+
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.maincontent {
+  width: 1170px;
+  margin: auto;
+}
+.topheadercontent {
+    padding-top: 17px;
+}
+.topheaderrightcontent {float: right;width: 950px;}
+
+.topheaderleftcontent {
+    width: 150px;
+    float: left;
+}
+
+.topheaderrightcontent .topheaderrightcontent1 {
+    width: 190px;
+    float: left;
+    margin-right: 10px;
+}
+.topheaderrightcontentinner{
+	float:right;
+}
+.topheaderrightcontent .topheaderrightcontent1 .icon-sm {
+    width: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+.topheaderrightcontent .topheaderrightcontent1 .icon-content {
+    width: 160px;
+    float: right;
+}
+
+}
+.topheaderrightcontent .topheaderrightcontent1 .icon-sm i.fa.fa-phone {
+    transform: rotate(108deg);
+    font-size: 26px;
+    color: orange;
+}
+.topheaderrightcontent .topheaderrightcontent1 .icon-sm i.fa.fa-phone {
+    transform: rotate(108deg);
+    font-size: 26px;
+    color: orange;
+}
+
+.topheaderrightcontent .topheaderrightcontent1 i.fa.fa-map-marker {
+    color: orange;
+}
+
+.maincontent {
+  width: 1170px;
+  margin: auto;
+  
+}
+.topheadercontent {
+    padding-top: 17px;
+    height: 76px;
+    position: relative;
+    background: #ffffff;
+}
+.topheaderrightcontent {float: right;width: 950px;font-family: poppins;}
+
+.topheaderleftcontent {
+    width: 187px;
+    float: left;
+}
+
+.topheaderrightcontent .topheaderrightcontent1 {
+    width: 190px;
+    float: left;
+    margin-right: 10px;
+}
+.topheaderrightcontentinner{
+	float:right;
+}
+.topheaderrightcontent .topheaderrightcontent1 .icon-sm {
+    width: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+.topheaderrightcontent .topheaderrightcontent1 .icon-content {
+    width: 160px;
+    float: right;
+}
+
+
+
+.topheaderrightcontent .topheaderrightcontent1 .icon-sm i.fa.fa-phone {
+    transform: rotate(108deg);
+    font-size: 26px;
+    color: orange;
+}
+.topheaderrightcontent .topheaderrightcontent1 .icon-sm i.fa.fa-phone {
+    transform: rotate(108deg);
+    font-size: 26px;
+    color: orange;
+}
+
+.topheaderrightcontent .topheaderrightcontent1 i.fa.fa-map-marker {
+    color: orange;
+}
+
+	
+/*border type hover*/
+.rightcontent3 {
+    position: relative;
+    background: #ff000000;
+    height: 38px;
+    width: 186px;
+}
+
+.rightcontent3 .rightcontent3inner {
+    position: absolute;
+    width: 176px;
+    height: 28px;
+    background: blue;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    display: block;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.rightcontent3 .rightcontent3inner a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.rightcontent3 span {
+    position: absolute;
+    display: block;
+    background: black;
+	transition: 0.2s;
+	transition-delay:0.2s;
+}
+.rightcontent3 span:nth-child(1) {
+    height: 2px;
+    width: 100%;
+    transform: scaleX(0.15);
+    transform-origin: left;
+
+}
+.rightcontent3 span:nth-child(2) {
+    height: 100%;
+    width: 2px;
+    transform: scaleY(0.45);
+    transform-origin: bottom;
+    right: 0px;
+    top: 0px;
+}
+.rightcontent3 span:nth-child(3) {
+    height: 2px;
+    width: 100%;
+    transform: scaleX(0.15);
+    transform-origin: right;
+    top: 37px;
+    left: 0;
+	
+}
+.rightcontent3 span:nth-child(4) {
+    height: 100%;
+    width: 2px;
+    transform: scaleY(0.45);
+    transform-origin: top;
+    top: 0px;
+    left: 0;
+}
+.rightcontent3:hover span:nth-child(odd) {
+    transform: scaleX(0.92);
+    
+}
+.rightcontent3:hover span:nth-child(even) {
+    transform: scaleY(0.70);
+}
+/*border type hover*/
+
+/*bottom header css*/
+
+.bottomheaderinner {
+    display: table;
+    background: #52575adb;
+    color: white;
+}
+
+.leftbottomheader {
+    width: 1029px;
+    float: left;
+}
+
+.leftbottomheader ul.navbar {
+    float: left;
+}
+
+.leftbottomheader ul.navbar li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+.leftbottomheader ul.navbar li a {
+    padding: 21px 12px;
+    display: block;
+}
+
+.rightbottomheader {
+    width: 125px;
+    float:right;
+    text-align: center;
+}
+/*dorpdown css*/
+
+ul.submenu {
+    position: absolute;
+    left: 0;
+    top: 65px;
+    background: white;
+    color: #52575a;
+    width: 150px;
+    transform: scale(0);
+    transform-origin: top;
+}
+ul.navbar li:hover ul.submenu {
+    transform: scale(1);
+}
+ul.submenu li {
+    float: none !important;
+    position: relative !important;
+}
+
+ul.submenu li a {
+    padding: 7px 10px !important;
+    display: block !important;
+	transition:0.3s;
+}
+ul.submenu li a:hover{
+	border-left:5px solid orange;
+	color:orange;
+}
+ul.submenu2 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 150px;
+    background: white;
+    transform: scale(0);
+    transform-origin: top;
+    color: #52575a;
+}
+
+ul.submenu li:hover ul.submenu2{
+	transform:scale(1);
+} 
+ul.submenu3 {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 150px;
+    background: white;
+    color: #52575a;
+    transform: scale(0);
+    transform-origin: top;
+}
+ul.submenu2 li:hover ul.submenu3{
+	transform:scale(1);
+} 
+/*dorpdown css*/
+
+/*serchform css*/
+.rightbottomheader .searchicon {
+    width: 50px;
+    float: left;
+    padding: 18px 0px;
+    font-size: 19px;
+    display: block;
+}
+
+.rightbottomheader .searchbutton {
+	width: 50px;
+	float: right;
+	padding: 10px 12px;
+	font-size: 28px;
+	animation-iteration-count:infinite;
+	animation-name:bellicon;
+	animation-duration:.7s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+	}
+
+@keyframes bellicon{
+	from{transform:translateX(12px)}
+	to{transform:translateX(17px)}
+}
+
+/*slider css*/
+section#slider {
+    background: url(../image/slide1.jpg);
+    height: 660px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 331%;
+}
+.sw_content {
+    width: 600px;
+    float: left;
+    margin-top: 243px;
+}
+
+.sw_textcontent h2 {
+    font-size: 49px;
+    font-weight: 800;
+}
+
+.sw_textcontent p {
+    width: 498px;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+}
+
+.sw_buttoncontent1 {
+    width: 300px;
+    float: left;
+}
