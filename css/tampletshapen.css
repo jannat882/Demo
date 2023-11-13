@@ -55,7 +55,7 @@ body{
     float: right;
 }
 
-}
+
 .topheaderrightcontent .topheaderrightcontent1 .icon-sm i.fa.fa-phone {
     transform: rotate(108deg);
     font-size: 26px;
@@ -347,6 +347,5 @@ section#slider {
 .sw_buttoncontent1 {
     width: 300px;
     float: left;
-}:x
-
+}
 
