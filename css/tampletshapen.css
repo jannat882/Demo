@@ -16,7 +16,7 @@ body{
  'Poppins', sans-serif;
  */
 
-.header {
+.header{
   position: fixed;
   width: 100%;
   z-index: 1;
